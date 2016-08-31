@@ -24,7 +24,7 @@ The variables we can use in this role.
 |---|---|---|---|
 |terraform_download_url|Download URL of Terraform archive.|str|https://releases.hashicorp.com/terraform/0.7.2/terraform_0.7.2_linux_amd64.zip|
 |terraform_sha256|SHA256 signature of Terraform archive.|str|b337c885526a8a653075551ac5363a09925ce9cf141f4e9a0d9f497842c85ad5|
-|terraform_download_tmppath|Path downloaded Terraform archive is put temporary.|/tmp/terraform.zip|
+|terraform_download_tmppath|Path downloaded Terraform archive is put temporary.|str|/tmp/terraform.zip|
 |terraform_bin_dir|Path Terraform binary is put|str|/usr/local/bin|
 
 - These variables are valid only on Debian/Alpine Linux, and they aren't used on OSX. On OSX, latest binary is installed by Homebrew Cask.

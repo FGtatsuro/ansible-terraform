@@ -1,2 +1,6 @@
 ---
 # defaults file for terraform
+terraform_download_url: 'https://releases.hashicorp.com/terraform/0.7.2/terraform_0.7.2_linux_amd64.zip'
+terraform_sha256: 'b337c885526a8a653075551ac5363a09925ce9cf141f4e9a0d9f497842c85ad5'
+terraform_download_tmppath: '/tmp/terraform.zip'
+terraform_bin_dir: '/usr/local/bin'

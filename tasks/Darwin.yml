@@ -1,2 +1,5 @@
 ---
 # tasks file for terraform(On OSX)
+- name: Install Terraform with Homebrew Cask
+  homebrew_cask:
+    name: 'terraform'

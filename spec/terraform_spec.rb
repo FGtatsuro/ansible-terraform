@@ -7,3 +7,7 @@ end
 describe command('terraform --version'), :if => ['alpine', 'debian'].include?(os[:family]) do
   its(:stdout) { should contain("Terraform v0.7.2") }
 end
+
+describe file('/usr/local/bin/terraform') do
+    it { should exist }
+end

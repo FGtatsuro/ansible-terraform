@@ -27,7 +27,7 @@ The variables we can use in this role.
 |terraform_download_tmppath|Path downloaded Terraform archive is put temporary.|str|/tmp/terraform.zip|
 |terraform_bin_dir|Path Terraform binary is put|str|/usr/local/bin|
 
-- These variables are valid only on Debian/Alpine Linux, and they aren't used on OSX. On OSX, latest binary is installed by Homebrew Cask.
+- These variables are valid only on Debian/Alpine Linux, and they aren't used on OSX. On OSX, latest binary is installed by Homebrew.
 - If you want to overwrite values, please check https://www.terraform.io/downloads.html.
 
 Role Dependencies

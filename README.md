@@ -22,8 +22,8 @@ The variables we can use in this role.
 
 |name|description|type|default|
 |---|---|---|---|
-|terraform_download_url|Download URL of Terraform archive.|str|https://releases.hashicorp.com/terraform/0.9.0/terraform_0.9.0_linux_amd64.zip|
-|terraform_sha256|SHA256 signature of Terraform archive.|str|0965cf0f9d373a550163aef4732438c201c7271ea5f96a902863248cb7f39f1c|
+|terraform_download_url|Download URL of Terraform archive.|str|https://releases.hashicorp.com/terraform/0.11.0/terraform_0.11.0_linux_amd64.zip|
+|terraform_sha256|SHA256 signature of Terraform archive.|str|402b4333792967986383670134bb52a8948115f83ab6bda35f57fa2c3c9e9279|
 |terraform_download_tmppath|Path downloaded Terraform archive is put temporary.|str|/tmp/terraform.zip|
 |terraform_bin_dir|Path Terraform binary is put|str|/usr/local/bin|
 

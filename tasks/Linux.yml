@@ -16,3 +16,10 @@
     copy: no
   become: yes
   when: dl_result.changed
+
+- name: Download Terraformer binary
+  get_url:
+    url: "{{ terraformer_download_url }}"
+    checksum: "sha256:{{ terraformer_sha256 }}"
+    dest: "{{ terraformer_bin_dir }}/terraformer"
+  become: yes

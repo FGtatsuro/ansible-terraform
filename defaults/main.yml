@@ -4,3 +4,7 @@ terraform_download_url: 'https://releases.hashicorp.com/terraform/0.12.15/terraf
 terraform_sha256: '2acb99936c32f04d0779c3aba3552d6d2a1fa32ed63cbca83a84e58714f22022'
 terraform_download_tmppath: '/tmp/terraform.zip'
 terraform_bin_dir: '/usr/local/bin'
+
+terraformer_download_url: 'https://github.com/GoogleCloudPlatform/terraformer/releases/download/0.8.4/terraformer-all-linux-amd64'
+terraformer_sha256: '9f31f72e56a6a208ea5a2c5584e1a7b8d1ec1fd4c847cc91c2fa4d7ce7b8cf96'
+terraformer_bin_dir: '/usr/local/bin'

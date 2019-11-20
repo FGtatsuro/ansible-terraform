@@ -3,7 +3,7 @@ ansible-terraform
 
 [![Build Status](https://travis-ci.org/FGtatsuro/ansible-terraform.svg?branch=master)](https://travis-ci.org/FGtatsuro/ansible-terraform)
 
-Ansible role for Terraform.
+Ansible role for Terraform, and Terraformer(An extensional tools of Terraform).
 
 Requirements
 ------------
@@ -26,9 +26,14 @@ The variables we can use in this role.
 |terraform_sha256|SHA256 signature of Terraform archive.|str|2acb99936c32f04d0779c3aba3552d6d2a1fa32ed63cbca83a84e58714f22022|
 |terraform_download_tmppath|Path downloaded Terraform archive is put temporary.|str|/tmp/terraform.zip|
 |terraform_bin_dir|Path Terraform binary is put|str|/usr/local/bin|
+|terraformer_download_url|Download URL of Terraformer binary.|str|https://github.com/GoogleCloudPlatform/terraformer/releases/download/0.8.4/terraformer-all-linux-amd64|
+|terraformer_sha256|SHA256 signature of Terraformer binary.|str|9f31f72e56a6a208ea5a2c5584e1a7b8d1ec1fd4c847cc91c2fa4d7ce7b8cf96|
+|terraformer_bin_dir|Path Terraformer binary is put|str|/usr/local/bin|
 
 - These variables are valid only on Debian/Alpine Linux, and they aren't used on OSX. On OSX, latest binary is installed by Homebrew.
-- If you want to overwrite values, please check https://www.terraform.io/downloads.html.
+- If you want to overwrite values, please check following URLs:
+   - https://www.terraform.io/downloads.html
+   - https://github.com/GoogleCloudPlatform/terraformer/releases
 
 Role Dependencies
 -----------------
